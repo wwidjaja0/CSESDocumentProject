@@ -73,7 +73,7 @@ This project is a group project, worked on by Phillip, William, Anisha, and Mahd
 ### Running your new project locally
 In your terminal, switch to your new Angular project.
 ```bash
-cd my-first-angular-app
+cd document-uploader
 ```
 
 All of your dependencies should be installed at this point (which you can verify by checking for the existent for a node_modules folder in your project), so you can start your project by running the command:
