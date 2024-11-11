@@ -69,3 +69,41 @@ This project is a group project, worked on by Phillip, William, Anisha, and Mahd
    origin  https://github.com/Phil5184/CSESDocumentProject.git (fetch)
    origin  https://github.com/Phil5184/CSESDocumentProject.git (push)
    ```
+
+### Running your new project locally
+In your terminal, switch to your new Angular project.
+```bash
+cd my-first-angular-app
+```
+
+All of your dependencies should be installed at this point (which you can verify by checking for the existent for a node_modules folder in your project), so you can start your project by running the command:
+```bash
+npm start
+```
+
+If everything is successful, you should see a similar confirmation message in your terminal:
+
+``` bash
+Watch mode enabled. Watching for file changes...
+NOTE: Raw file sizes do not reflect development server per-request transformations.
+ ➜ Local: http://localhost:4200/
+ ➜ press h + enter to show help
+```
+
+And now you can visit the path in Local (e.g., http://localhost:4200) to see your application. Happy coding! 🎉
+
+### Development Guidlines
+
+#### Code Style
+
+Please follow these coding style guidelines:
+
+- We recommend using Prettier to format on save, and then running ESLint before making a pull request.
+- Indent with tabs and use a 2-space indentation.
+- Use semicolons and the end of each line.
+- Write clear, concise comments where necessary.
+- Use meaningful variable and function names.
+
+### Commit Messages
+
+Please write a rough description for the changes made in each commits
