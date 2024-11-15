@@ -332,14 +332,26 @@
 <!-- * * * * * * * * * * End of Placeholder  * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
-<main>
-  <div>
-    <h1>Welcome to Our Document Uploader</h1>
-  </div>
-  <div>
-    <p>Please upload your file below</p>
-    <label for = 'file'>File Upload</label><br/>
-    <input type = 'file' name = 'File' id = 'file'/>
-  </div>
-</main>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document Uploader</title>
+  <link rel="stylesheet" href="app.component.css">
+</head>
+<body>
+
+  <main>
+    <div>
+      <h1>Welcome to Our Document Uploader</h1>
+    </div>
+    <div>
+      <p>Please upload your file below</p>
+      <div class="file-upload-container">
+        <label for="file">File Upload</label>
+        <input type="file" name="file" id="file" />
+      </div>
+    </div>
+  </main>
+
+</body>
 <router-outlet />
