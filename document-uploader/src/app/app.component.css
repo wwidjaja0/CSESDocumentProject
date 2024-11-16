@@ -1,0 +1,60 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+  }
+  
+  /* Main container styling */
+  main {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 500px;
+  }
+  
+  /* Header styling */
+  h1 {
+    color: #333;
+  }
+  
+  /* Paragraph styling */
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* File upload container styling */
+  .file-upload-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 2px dashed #4f84a9;
+    border-radius: 8px;
+    display: inline-block;
+    width: 90%;
+  }
+  
+  /* Label styling */
+  label {
+    display: block;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* File input styling */
+  input[type="file"] {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 10px;
+  }
+  

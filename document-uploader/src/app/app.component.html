@@ -6,7 +6,7 @@
 <!-- * * * * * * * * * Delete the template below * * * * * * * * * -->
 <!-- * * * * * * * to get started with your project! * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
+<!--
 <style>
   :host {
     --bright-blue: oklch(51.01% 0.274 263.83);
@@ -332,5 +332,26 @@
 <!-- * * * * * * * * * * End of Placeholder  * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document Uploader</title>
+  <link rel="stylesheet" href="app.component.css">
+</head>
+<body>
 
+  <main>
+    <div>
+      <h1>Welcome to Our Document Uploader</h1>
+    </div>
+    <div>
+      <p>Please upload your file below</p>
+      <div class="file-upload-container">
+        <label for="file">File Upload</label>
+        <input type="file" name="file" id="file" />
+      </div>
+    </div>
+  </main>
+
+</body>
 <router-outlet />
